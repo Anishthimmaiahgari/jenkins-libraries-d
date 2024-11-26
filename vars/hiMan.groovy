@@ -1,3 +1,3 @@
-def call() {
-  sh echo "Hello, jen."
+def cam() {
+  sh 'echo jen'
 }
