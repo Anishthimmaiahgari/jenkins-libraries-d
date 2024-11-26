@@ -1,3 +1,3 @@
-def cam() {
+def call() {
   sh 'echo jen'
 }
