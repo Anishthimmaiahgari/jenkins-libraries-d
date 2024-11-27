@@ -3,5 +3,5 @@ def call() {
                         gcloud config set project ${PROJECT_ID}
                         gcloud auth configure-docker --quiet
                         docker build -t ${IMAGE_NAME_QA} .
-                        docker push ${IMAGE_NAME_QA}'''
+          '''
 }
